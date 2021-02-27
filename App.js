@@ -1,7 +1,7 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from './src/screens/HomeScreen';
-//import { PermissionsAndroid } from 'react-native';
+import { PermissionsAndroid } from 'react-native';
 
 
 const MainStack = createStackNavigator({
@@ -21,19 +21,19 @@ export default App;
 
 
 //location permission 
-//export async function requestLocationPermission() 
-//{
-  //try {
-    //const granted = await PermissionsAndroid.request(
-      //PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION)
-    //if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-      //console.log("You can use the location")
-      //alert("You can use the location");
-    //} else {
-      //console.log("location permission denied")
-      //alert("Location permission denied");
-    //}
-  //} catch (err) {
-    //console.warn(err)
-  //}
-//}
+export async function requestLocationPermission() 
+{
+  try {
+    const granted = await PermissionsAndroid.request(
+      PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION)
+    if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+      console.log("You can use the location")
+      alert("You can use the location");
+    } else {
+      console.log("location permission denied")
+      alert("Location permission denied");
+    }
+  } catch (err) {
+    console.warn(err)
+  }
+}
