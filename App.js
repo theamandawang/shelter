@@ -1,10 +1,14 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from './src/screens/HomeScreen';
+import MapScreen from './src/screens/MapScreen'
 
 const MainStack = createStackNavigator({
   Home: { 
     screen: HomeScreen // The main screen of the app. Has all the buttons
+  },
+  Map: {
+    screen: MapScreen
   },
   initialRouteName: 'Home',
   headerMode: 'none',
