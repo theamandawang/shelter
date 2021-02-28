@@ -1,7 +1,9 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from './src/screens/HomeScreen';
+import ListScreen from './src/screens/ListScreen'
 import MapScreen from './src/screens/MapScreen'
+
 
 const MainStack = createStackNavigator({
   Home: { 
@@ -10,11 +12,14 @@ const MainStack = createStackNavigator({
   Map: {
     screen: MapScreen
   },
+  List: {
+    screen: ListScreen
+  }
+
+}, {
   initialRouteName: 'Home',
   headerMode: 'none',
-});
-
-
+})
 
 
 

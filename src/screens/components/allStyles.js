@@ -1,4 +1,4 @@
-import {Dimensions,StyleSheet} from 'react-native'
+import {Dimensions,StyleSheet, StatusBar} from 'react-native'
 const screenWidth = Dimensions.get('window').width
 const screenHeight = Dimensions.get('window').height
 export default StyleSheet.create({
@@ -14,11 +14,18 @@ export default StyleSheet.create({
         
     },
     container: {
-        flex: 10,
-        justifyContent: 'center',
-        alignContent: 'center',
-        alignItems: 'center',
-    },
+        flex: 1,
+        marginTop: StatusBar.currentHeight || 0,
+      },
+      item: {
+        backgroundColor: '#f9c2ff',
+        padding: 12,
+        marginVertical: 6,
+        marginHorizontal: 16,
+      },
+      title: {
+        fontSize: 16,
+      },
     text: {
         marginLeft: screenWidth*0.02,
         marginRight: screenWidth*0.02,
@@ -39,10 +46,6 @@ export default StyleSheet.create({
         paddingHorizontal: screenWidth*0.0487,
         marginTop: screenHeight*0.0344,
         marginBottom: screenHeight*0.0344,
-    },
-    title: {
-        fontSize: screenWidth*0.0633,
-        marginBottom: screenHeight*0.02,
     },
     topRightIcon: {
         marginLeft: screenWidth*0.285,
@@ -79,36 +82,6 @@ export default StyleSheet.create({
         right: 0,
         bottom: 0,
     },
-    confirmImage: {
-        marginTop: screenHeight*0.0133,
-        top: screenHeight*0.01,
-        height: screenHeight*0.267,
-        width: screenWidth*0.487,
-        alignItems: 'center',
-        resizeMode: 'contain',
-    },
-    textContainer: {
-        flex: 6,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        position: 'relative',
-        alignItems: 'center',
-    },
-    buttonContainer: {
-        flex: 2,
-        flexDirection: 'row',
-        alignItems: 'flex-start',
-    },
-    confirmContainer: {
-        flex: 1,
-        flexDirection: 'column',
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-    },
-    confirmTitle: {
-        fontSize: screenWidth*0.0666,
-        marginTop: screenHeight*0.027,
-    },
     option: {
         fontSize: screenWidth*0.0584,
         top: screenHeight*0.06,
@@ -137,11 +110,6 @@ export default StyleSheet.create({
          alignItems:'center',
          bottom: screenHeight*0.2,
        },
-      labelText: {
-        textAlign: 'center',
-        fontSize: screenWidth*0.049,
-        position: 'relative',
-      },
       logoImage: {
         height: screenHeight*0.2,
         width: screenWidth*0.25,
@@ -159,19 +127,6 @@ export default StyleSheet.create({
         borderWidth: 2.5,
         borderRadius: 5,
         marginBottom: screenHeight*0.0333,
-      },
-      admin: {
-          width: screenWidth*0.62,
-          height: screenHeight*0.0534,
-          alignItems: 'center',
-          justifyContent: 'center',
-          borderColor: '#bdbdbd',
-          borderWidth: 2.5,
-          borderRadius: 5,
-          marginBottom: screenHeight*0.0333,
-      },
-      messageIcon: {
-        marginLeft: screenWidth*0.15,
       },
       mapIcon: {
         justifyContent: 'center',
@@ -206,9 +161,6 @@ export default StyleSheet.create({
         color: '#f5f5f5',
     },
     wrapper: {},
-    keyTitle: {
-        fontSize: screenWidth*0.0833,
-    },
     smallInput: {
         width: screenWidth*0.7299,
         height: screenHeight*0.0534,
@@ -224,54 +176,4 @@ export default StyleSheet.create({
         fontSize: screenWidth*0.0487,
         paddingHorizontal: screenWidth*0.0487,
     },
-    medical: {
-        width: screenWidth*0.62,
-        height: screenHeight*0.0534,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderColor: '#0eaffa',
-        borderWidth: 2.5,
-        borderRadius: 5,
-        marginBottom: screenHeight*0.0333,
-      },
-    intruderContainer: {
-        flex: 12,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    actionSheetButtonText: {
-        fontSize: screenWidth*0.0487,
-    },
-    fakeSmallInput: {
-        width: screenWidth*0.7299,
-        height: screenHeight*0.0534,
-        backgroundColor: '#d5d5d5',
-        marginBottom: screenHeight*0.027,
-        borderColor: 'black',
-        borderWidth: 0.5,
-        borderRadius: 5,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        fontSize: screenWidth*0.0487,
-        paddingHorizontal: screenWidth*0.02,
-    },
-    intruderButton: {
-        width: screenWidth*0.45,
-        height: screenHeight*0.05,
-        top: screenHeight*0.02,
-        marginLeft: screenWidth*0.0122,
-        marginRight: screenWidth*0.0122,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderWidth: 0.5,
-        borderRadius: 5,
-        backgroundColor: '#c80d00',
-        borderColor: '#c80d00',
-    },
-    intruderButtonText: {
-        fontSize: screenWidth*0.04,
-        color: 'white',
-    },
-
 })
