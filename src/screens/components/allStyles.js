@@ -10,6 +10,8 @@ export default StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#ccd9cd',
+        
     },
     container: {
         flex: 10,
@@ -201,6 +203,7 @@ export default StyleSheet.create({
         fontSize: screenWidth*0.12,
         marginBottom: screenHeight*0.05,
         marginTop: screenHeight*0.1,
+        color: '#f5f5f5',
     },
     homeText: {
         fontFamily: 'Lato',
@@ -209,6 +212,7 @@ export default StyleSheet.create({
         marginLeft: screenWidth*0.10,
         marginRight: screenWidth*0.10,
         marginBottom: screenHeight*0.05,
+        color: '#f5f5f5',
     },
     wrapper: {},
     keyTitle: {
