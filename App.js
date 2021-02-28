@@ -15,6 +15,11 @@ const MainStack = createStackNavigator({
 });
 
 
+
+
+
+
+
 // Disables Yellow text on the Virtual Device
 console.disableYellowBox = true;
 const App = new createAppContainer(MainStack);
