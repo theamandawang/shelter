@@ -13,18 +13,29 @@ export default StyleSheet.create({
         backgroundColor: '#ccd9cd',
         
     },
-    container: {
+    containerList: {
         flex: 1,
         marginTop: StatusBar.currentHeight || 0,
+        
       },
-      item: {
-        backgroundColor: '#f9c2ff',
+    container:{
+        flex: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#ccd9cd',
+        
+    },
+    item: {
+        backgroundColor: '#99b8c9',
         padding: 12,
         marginVertical: 6,
         marginHorizontal: 16,
-      },
+        
+    },
       title: {
         fontSize: 16,
+        fontFamily: 'serif',
+        textAlign: 'center',
       },
     text: {
         marginLeft: screenWidth*0.02,
