@@ -23,7 +23,6 @@ export default StyleSheet.create({
         marginLeft: screenWidth*0.02,
         marginRight: screenWidth*0.02,
         marginTop: screenHeight*0.02,
-        fontFamily: 'Lato-Regular',
         textAlign: 'center',
         fontSize: screenWidth*0.049,
     },
@@ -42,7 +41,6 @@ export default StyleSheet.create({
         marginBottom: screenHeight*0.0344,
     },
     title: {
-        fontFamily: 'Lato-Bold',
         fontSize: screenWidth*0.0633,
         marginBottom: screenHeight*0.02,
     },
@@ -72,7 +70,6 @@ export default StyleSheet.create({
     },
     buttonText: {
         fontSize: screenWidth*0.0487,
-        fontFamily: 'Lato-Bold',
         color: 'white',
     },
     absoluteFillView: {
@@ -111,11 +108,9 @@ export default StyleSheet.create({
     confirmTitle: {
         fontSize: screenWidth*0.0666,
         marginTop: screenHeight*0.027,
-        fontFamily: 'Lato-Bold',
     },
     option: {
         fontSize: screenWidth*0.0584,
-        fontFamily: 'Lato-Bold',
         top: screenHeight*0.06,
         marginTop: screenHeight*0.0267,
     },
@@ -135,7 +130,6 @@ export default StyleSheet.create({
     confirmButtonText: {
         fontSize: screenWidth*0.0438,
         color: 'white',
-        fontFamily: 'Lato-Bold',
     },
      requestButton: {
          alignContent: 'center',
@@ -144,7 +138,6 @@ export default StyleSheet.create({
          bottom: screenHeight*0.2,
        },
       labelText: {
-        fontFamily: 'Lato-Regular',
         textAlign: 'center',
         fontSize: screenWidth*0.049,
         position: 'relative',
@@ -185,7 +178,6 @@ export default StyleSheet.create({
     },
       homeButtonText: {
         fontSize: screenWidth*0.0487,
-        fontFamily: 'Lato-Bold',
         color: 'black',
       },
       emergency: {
@@ -206,7 +198,6 @@ export default StyleSheet.create({
         color: '#f5f5f5',
     },
     homeText: {
-        fontFamily: 'Lato',
         fontSize: screenWidth*0.05,
         textAlign: 'center',
         marginLeft: screenWidth*0.10,
@@ -216,7 +207,6 @@ export default StyleSheet.create({
     },
     wrapper: {},
     keyTitle: {
-        fontFamily: 'Lato-Bold',
         fontSize: screenWidth*0.0833,
     },
     smallInput: {
@@ -231,7 +221,6 @@ export default StyleSheet.create({
         borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center',
-        fontFamily: 'Lato-Regular',
         fontSize: screenWidth*0.0487,
         paddingHorizontal: screenWidth*0.0487,
     },
@@ -251,7 +240,6 @@ export default StyleSheet.create({
         alignItems: 'center',
     },
     actionSheetButtonText: {
-        fontFamily: 'Lato-Bold',
         fontSize: screenWidth*0.0487,
     },
     fakeSmallInput: {
@@ -265,7 +253,6 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        fontFamily: 'Lato-Bold',
         fontSize: screenWidth*0.0487,
         paddingHorizontal: screenWidth*0.02,
     },
@@ -285,7 +272,6 @@ export default StyleSheet.create({
     intruderButtonText: {
         fontSize: screenWidth*0.04,
         color: 'white',
-        fontFamily: 'Lato-Bold',
     },
 
 })
