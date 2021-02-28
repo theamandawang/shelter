@@ -1,3 +1,4 @@
+// test git in styles branch. Ignore.
 import React, { Component } from 'react'
 import { Text, View, TouchableOpacity, Image, Dimensions, Linking } from 'react-native'
 import { IconButton } from 'react-native-paper'
