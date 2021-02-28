@@ -33,11 +33,7 @@ export default class HomeScreen extends Component {
 
         <View style = {styles.container}>
           <Text style={styles.homeTitle}>Shelter</Text>
-        <View style = {styles.container}>
-          <Text style={styles.textAlign}>Locate a Child Protective Services Shelter near you!</Text>
-
-        <View style = {styles.container}>
-          
+          <Text style={styles.homeText}>Locate a Child Protective Services Shelter near you!</Text>
           <IconButton style = {styles.mapIcon}
             icon = 'google-maps'
             color = 'green'
@@ -46,10 +42,8 @@ export default class HomeScreen extends Component {
               this.props.navigation.navigate('Map')
             }}
           />
+        </View>
       </View>
-    </View>
-    </View>
-    </View>
     );
   }
 }

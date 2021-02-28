@@ -179,8 +179,8 @@ export default StyleSheet.create({
         marginLeft: screenWidth*0.15,
       },
       mapIcon: {
-        marginRight: screenWidth*0.15,
-      },
+        justifyContent: 'center',
+    },
       homeButtonText: {
         fontSize: screenWidth*0.0487,
         fontFamily: 'Lato-Bold',
@@ -198,9 +198,17 @@ export default StyleSheet.create({
       },
       homeTitle: {
         fontFamily: 'Lato-Bold',
-        fontSize: screenWidth*0.0633,
-        marginBottom: screenHeight*0.04,
-        marginTop: screenHeight*0.3,
+        fontSize: screenWidth*0.12,
+        marginBottom: screenHeight*0.05,
+        marginTop: screenHeight*0.1,
+    },
+    homeText: {
+        fontFamily: 'Lato',
+        fontSize: screenWidth*0.05,
+        textAlign: 'center',
+        marginLeft: screenWidth*0.10,
+        marginRight: screenWidth*0.10,
+        marginBottom: screenHeight*0.05,
     },
     wrapper: {},
     keyTitle: {
