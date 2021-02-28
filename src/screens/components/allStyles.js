@@ -200,6 +200,7 @@ export default StyleSheet.create({
         fontFamily: 'Lato-Bold',
         fontSize: screenWidth*0.0633,
         marginBottom: screenHeight*0.04,
+        marginTop: screenHeight*0.3,
     },
     wrapper: {},
     keyTitle: {

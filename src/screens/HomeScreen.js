@@ -32,7 +32,7 @@ export default class HomeScreen extends Component {
       <View style={styles.contentContainer}>
 
         <View style = {styles.container}>
-          <Text style={styles.homeTitle}>Home</Text>
+          <Text style={styles.homeTitle}>Shelter</Text>
         <View style = {styles.container}>
           <Text style={styles.textAlign}>Locate a Child Protective Services Shelter near you!</Text>
 
