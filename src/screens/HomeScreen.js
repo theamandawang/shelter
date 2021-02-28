@@ -223,7 +223,7 @@ const DATA = [
     title: 'Texas',
   },
   {
-    id: '43,
+    id: '43',
     title: 'Utah',
   },
   {
