@@ -28,7 +28,7 @@ export default class HomeScreen extends Component {
       <View style={styles.contentContainer}>
 
         <View style = {styles.container}>
-          <Text style={styles.homeTitle}>Home</Text>
+          <Text styles={styles.homeTitle}>Home</Text>
 
         <View style = {styles.container}>
           <IconButton style = {styles.mapIcon}

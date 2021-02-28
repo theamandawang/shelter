@@ -274,18 +274,5 @@ export default StyleSheet.create({
         color: 'white',
         fontFamily: 'Lato-Bold',
     },
-    intruderInput: {
-        width: screenWidth*0.73,
-        height: screenHeight*0.13,
-        backgroundColor: '#d5d5d5',
-        textAlign: 'center',
-        borderColor: 'black',
-        borderWidth: 0.5,
-        borderRadius: 5,
-        textAlignVertical: 'top',
-        fontSize: screenWidth*0.0487,
-        paddingHorizontal: screenWidth*0.0487,
-        marginBottom: screenHeight*0.04,
-    },
 
 })
