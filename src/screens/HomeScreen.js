@@ -32,7 +32,8 @@ export default class HomeScreen extends Component {
       <View style={styles.contentContainer}>
 
         <View style = {styles.container}>
-          <Text style={styles.homeTitle}>Shelter</Text>
+          <Image style={styles.logoImage} source={require('../../assets/house.png')}/>
+          <Text style={styles.homeTitle}>shelter</Text>
           <Text style={styles.homeText}>Locate a Child Protective Services Shelter near you!</Text>
           <IconButton style = {styles.mapIcon}
             icon = 'google-maps'

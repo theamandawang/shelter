@@ -150,10 +150,10 @@ export default StyleSheet.create({
         position: 'relative',
       },
       logoImage: {
-        height: screenHeight*0.267,
-        width: screenWidth*0.487,
+        height: screenHeight*0.2,
+        width: screenWidth*0.25,
         bottom: screenHeight*0.035,
-        marginBottom: screenHeight*0.05,
+        marginTop: screenHeight*0.01,
         position: 'relative',
         resizeMode: 'contain',
       },
@@ -199,10 +199,10 @@ export default StyleSheet.create({
         marginBottom: screenHeight*0.0344,
       },
       homeTitle: {
-        fontFamily: 'Lato-Bold',
+        fontFamily: 'serif',
         fontSize: screenWidth*0.12,
         marginBottom: screenHeight*0.05,
-        marginTop: screenHeight*0.1,
+        //marginTop: screenHeight*0.1,
         color: '#f5f5f5',
     },
     homeText: {
