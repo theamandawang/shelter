@@ -18,7 +18,7 @@ export default class HomeScreen extends Component {
 
     return (
 
-      <View style={styles.contentContainer}>
+      <View style={styles.container}>
 
           <Image style={styles.logoImage} source={require('../../assets/house.png')}/>
           <Text style={styles.homeTitle}>shelter</Text>
